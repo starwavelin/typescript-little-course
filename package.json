@@ -1,0 +1,21 @@
+{
+  "name": "typescript-little-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc lesson00/*.ts",
+    "test": "node lesson00/*.js",
+    "nt": "npm run build && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starwavelin/typescript-little-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starwavelin/typescript-little-course/issues"
+  },
+  "homepage": "https://github.com/starwavelin/typescript-little-course#readme"
+}
