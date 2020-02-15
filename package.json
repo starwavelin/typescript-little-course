@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc lesson00/*.ts",
-    "test": "node lesson00/*.js",
+    "build": "tsc lesson01/*.ts",
+    "test": "node lesson01/*.js",
     "nt": "npm run build && npm run test"
   },
   "repository": {
