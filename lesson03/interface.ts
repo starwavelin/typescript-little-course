@@ -30,3 +30,35 @@ function createSquare(config: SquareConfig): {color: string; area: number} {
 }
 
 let mySquare = createSquare({color: "blue", width: 13});
+
+
+interface ClockInterface {
+    currentTime: Date;
+
+    setTime(d: Date): void;
+}
+
+class Clock implements ClockInterface {
+    currentTime: Date;
+
+    setTime(d: Date) {
+        this.currentTime = d;
+    }
+
+    constructor(h: number, m: number) {
+        this.currentTime = new Date();
+    }
+}
+
+interface ClockConstructor {
+    // new(hour: number, minute: number);
+    setTime(hour: number, minute: number): void;
+}
+
+class Clock2 implements ClockConstructor {
+    currentTime: Date;
+    
+    setTime(h: number, m: number): void {}
+    constructor(h: number, m: number) {}
+}
+

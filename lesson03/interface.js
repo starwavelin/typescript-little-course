@@ -16,3 +16,18 @@ function createSquare(config) {
     return newSquare;
 }
 var mySquare = createSquare({ color: "blue", width: 13 });
+var Clock = /** @class */ (function () {
+    function Clock(h, m) {
+        this.currentTime = new Date();
+    }
+    Clock.prototype.setTime = function (d) {
+        this.currentTime = d;
+    };
+    return Clock;
+}());
+var Clock2 = /** @class */ (function () {
+    function Clock2(h, m) {
+    }
+    Clock2.prototype.setTime = function (h, m) { };
+    return Clock2;
+}());
