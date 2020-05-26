@@ -1,5 +1,5 @@
-### Project Description
-The `typescript-little-course` is derived from the [handbook](https://www.typescriptlang.org/docs/handbook/) of [typecript language](https://www.typescriptlang.org/).
+### Description
+The **typescript-little-course** project is derived from the [handbook](https://www.typescriptlang.org/docs/handbook/) of [typecript language](https://www.typescriptlang.org/).
 
 ### History
 ###### May 26, 2020
